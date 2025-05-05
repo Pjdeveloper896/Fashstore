@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ionic CDN Example</title>
+  <title>fashstore</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
   <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core@7.0.0/dist/ionic/ionic.esm.js"></script>
   <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core@7.0.0/dist/ionic/ionic.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core@7.0.0/css/ionic.bundle.css" />
@@ -21,10 +23,12 @@
   <circle cx="170" cy="30" r="10" fill="#ff69b4" />
   <path d="M165 25 Q170 15 175 25" stroke="#fff" stroke-width="2" fill="none"/>
 </svg>
+<a href="/home.html" class=" w-full p-2 bg-gray-100 text-blue-500 hover:active:text-orange-700">home</a>
+<a href="/contact.html" class=" w-full p-2 rounded-md bg-gray-100 text-blue-500 hover:active:text-orange-700">contact</a>
     </ion-header>
     <ion-content class="ion-padding">
       <ion-input placeholder="Enter your cloth preference (e.g. men's clothing)" id="clothInput"></ion-input>
-      <ion-button expand="block" id="clickBtn">Fetch Clothes</ion-button>
+      <ion-button expand="block" id="clickBtn">search</ion-button>
       <div id="results" class="ion-padding"></div>
     </ion-content>
     <ion-footer class="foot">
