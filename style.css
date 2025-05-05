@@ -1,0 +1,8 @@
+.foot{
+  background: linear-gradient(135deg, #111827, #6b21a8); /* dark elegant gradient */
+  color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+}
